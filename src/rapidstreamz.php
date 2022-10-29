@@ -69,5 +69,5 @@ $msg=$json['msg'];
 
 ?>
 <div class="content">
-<iframe src="https://wh1021080.ispot.cc/voot/bb247.php?s=<?php echo $uri.$output1 ?>" width="1000" height="1000" allowfullscreen="true"></iframe>
+<iframe src="https://wh1021080.ispot.cc/voot/bb247.php?s=https://ww1.shikaritv.tk/mp.php/<?php echo $uri.$output1 ?>" width="1000" height="1000" allowfullscreen="true"></iframe>
 </div> 
