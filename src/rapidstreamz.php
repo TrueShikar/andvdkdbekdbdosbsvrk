@@ -6,7 +6,7 @@
 <script>
 $(document).ready(function(){
   $("button").click(function(){
-    $.post("http://corsany-where.herokuapp.com/https://delta.rapidstreams.io/gt.rstrm/",
+    $.post("https://corsany-where.herokuapp.com/https://delta.rapidstreams.io/gt.rstrm/",
     {
       name: "Donald Duck",
       city: "Duckburg"
