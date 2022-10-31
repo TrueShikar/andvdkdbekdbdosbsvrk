@@ -65,9 +65,6 @@ $g = preg_replace("/(?=star1in).*ts/", "go.php?ts=".$elink."$0", $f);
 
 header("Content-Type: application/vnd.apple.mpegurl");
 
-echo '#EXTM3U'.PHP_EOL;
-echo '#EXT-X-VERSION:3'.PHP_EOL;
-echo '#EXT-X-STREAM-INF:PROGRAM-ID=1,CLOSED-CAPTIONS=NONE,BANDWIDTH=600000,RESOLUTION=1024x576'.PHP_EOL;
 echo $g.PHP_EOL;
 
 
