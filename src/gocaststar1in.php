@@ -63,7 +63,6 @@ $context = stream_context_create($opts);
 $f = preg_replace("/(?<=ts).*/", "", $myoutput1);
 $g = preg_replace("/(?=star1in).*ts/", "ts.php?ts=".$elink."$0", $f);
 
-echo $g;
 header("Content-Type: application/vnd.apple.mpegurl");
 
 echo '#EXTM3U'.PHP_EOL;
