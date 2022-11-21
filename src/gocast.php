@@ -1,13 +1,13 @@
 <?php
 
 $v= $_GET['v'];
-$url= "123ecast.me/embed.php?player=desktop&v=".$v;
+$url= "https://123ecast.me/embed2.php?player=desktop&v=".$v;
 $curl = curl_init($url);
 curl_setopt($curl, CURLOPT_URL, $url);
 curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
 
 $headers = array(
-   "Referer: https://gocast123.me",
+   "Referer: https://123ecast.me/",
 );
 curl_setopt($curl, CURLOPT_HTTPHEADER, $headers);
 //for debug only!
