@@ -9,7 +9,7 @@ $url = $pxy.$ts."?".$tok;
 $opts = array(
   'http'=>array(
     'method'=>"GET",
-    'header'=>"Referer: https://gocast123.me"
+    'header'=>"Referer: https://123ecast.me/"
   )
 );
 $context = stream_context_create($opts);
