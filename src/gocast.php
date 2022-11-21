@@ -1,7 +1,7 @@
 <?php
 
 $v= $_GET['v'];
-$url= "https://gocast123.me/embed2.php?player=mobile&v=".$v;
+$url= "123ecast.me/embed.php?player=desktop&v=".$v;
 $curl = curl_init($url);
 curl_setopt($curl, CURLOPT_URL, $url);
 curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
