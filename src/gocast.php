@@ -38,7 +38,7 @@ curl_setopt($curl1, CURLOPT_URL, $url1);
 curl_setopt($curl1, CURLOPT_RETURNTRANSFER, true);
 
 $headers = array(
-   "Referer: https://gocast123.me",
+   "Referer: https://123ecast.me/",
 );
 curl_setopt($curl1, CURLOPT_HTTPHEADER, $headers);
 //for debug only!
