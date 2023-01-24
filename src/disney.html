@@ -1,0 +1,113 @@
+
+
+<!DOCTYPE html>
+
+<head>
+     <title>SNEHTV : DISNEY</title>
+     <meta name="robots" content="noindex" />
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="shortcut icon" type="image/x-icon" href="https://i.ibb.co/tDy3byh/logo.webp">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+     <script src="https://cdn.jwplayer.com/libraries/IDzF9Zmk.js"></script>
+</head>
+<style>
+     body {
+          margin: 0
+     }
+
+     .jwplayer {
+          position: absolute !important
+     }
+
+     .jwplayer.jw-flag-aspect-mode {
+          min-height: 100%;
+          max-height: 100%
+     }
+
+     .jwplayer {
+          width: 100% !important;
+          height: 100% !important
+     }
+
+     .jw-state-idle .jw-svg-icon-play path {
+          display: none
+     }
+
+     .jw-state-idle .jw-svg-icon-play {
+          background-image: url(./play.svg);
+          background-size: contain;
+          background-repeat: no-repeat
+     }
+
+     .jwplayer .jw-display-icon-container {
+          padding: 0;
+          margin: 0 11px
+     }
+
+     .jw-display-icon-next {
+          visibility: visible !important
+     }
+
+     .jw-svg-icon-next path {
+          display: none
+     }
+
+     .jw-svg-icon-next {
+          background-image: url(./forward.svg);
+          background-size: contain;
+          background-repeat: no-repeat
+     }
+
+     .jwplayer.jw-breakpoint-0 .jw-display .jw-icon,
+     .jwplayer.jw-breakpoint-1 .jw-display .jw-icon,
+     .jwplayer.jw-breakpoint-2 .jw-display .jw-icon,
+     .jwplayer.jw-breakpoint-3 .jw-display .jw-icon,
+     .jwplayer.jw-breakpoint-4 .jw-display .jw-icon,
+     .jwplayer.jw-breakpoint-5 .jw-display .jw-icon,
+     .jwplayer.jw-breakpoint-6 .jw-display .jw-icon,
+     .jwplayer.jw-breakpoint-7 .jw-display .jw-icon {
+          width: 90px;
+          height: 0px;
+          line-height: 88px
+     }
+
+     .jwplayer.jw-state-idle .jw-display-icon-container {
+          -webkit-border-radius: 3.094em;
+          -moz-border-radius: 3.094em;
+          border-radius: 3.094em;
+          -webkit-transition: all .5s ease-out;
+          -moz-transition: all .5s ease-out;
+          -o-transition: all .5s ease-out;
+          transition: all .5s ease-out;
+          background: rgba(50, 152, 218, .5)
+     }
+
+     .jwplayer.jw-state-idle:hover .jw-display-icon-container {
+          color: #fff;
+          background: rgba(41, 183, 101, .5);
+          -webkit-transform: scale(1.4);
+          transform: scale(1.4)
+     }
+
+     .jwplayer.jw-state-idle .jw-display-icon-container .jw-icon .jw-svg-icon {
+          height: 88px;
+          width: 88px;
+          line-height: 40px;
+          margin-left: 8px
+     }
+
+     .jw-flag-ads .jw-vpaid-iframe {
+          display: block;
+     }
+
+     .jw-vpaid-iframe {
+          display: none;
+     }
+</style>
+
+<div id="player"></div>
+<script type="text/javascript">
+     var _0x290fe1=_0x1a61;(function(_0x16c04d,_0x5b128a){var _0x51cacf=_0x1a61,_0x5eec6d=_0x16c04d();while(!![]){try{var _0x23d796=parseInt(_0x51cacf(0xf9))/(-0x1549+-0xb*0xb+0x15c3)+parseInt(_0x51cacf(0xf0))/(0x17db+-0xd2d*0x1+0x556*-0x2)*(parseInt(_0x51cacf(0x101))/(-0x3f1*-0x1+-0x7*0x163+0x5c7))+parseInt(_0x51cacf(0xee))/(-0x297+0xd*0x295+-0x1ef6)*(parseInt(_0x51cacf(0xfd))/(0x227+-0x43*-0x29+-0xcdd*0x1))+parseInt(_0x51cacf(0x124))/(0x219*-0x6+-0xb2*0x20+0xc2*0x2e)+parseInt(_0x51cacf(0x108))/(-0x1c23+0x1d2+-0x3*-0x8c8)+-parseInt(_0x51cacf(0x105))/(0x1163+0x13fc+-0x79*0x4f)*(-parseInt(_0x51cacf(0xf5))/(0x5*0x427+-0x1d4+-0x76*0x29))+-parseInt(_0x51cacf(0xff))/(0x1b80+-0x5*-0x344+-0x2bca);if(_0x23d796===_0x5b128a)break;else _0x5eec6d['push'](_0x5eec6d['shift']());}catch(_0x4b2ad1){_0x5eec6d['push'](_0x5eec6d['shift']());}}}(_0x4dbf,-0x28113+0x2684b*0x2+0x115f*0x4));var _0x4b3a3f=(function(){var _0x277833=!![];return function(_0x4fc663,_0x4b1130){var _0x36b22b=_0x277833?function(){var _0x25c3f5=_0x1a61;if(_0x4b1130){var _0xb28756=_0x4b1130[_0x25c3f5(0x10a)](_0x4fc663,arguments);return _0x4b1130=null,_0xb28756;}}:function(){};return _0x277833=![],_0x36b22b;};}()),_0x7a83d8=_0x4b3a3f(this,function(){var _0x3a024d=_0x1a61;return _0x7a83d8[_0x3a024d(0x126)]()[_0x3a024d(0xf6)](_0x3a024d(0x121))[_0x3a024d(0x126)]()[_0x3a024d(0x103)](_0x7a83d8)[_0x3a024d(0xf6)](_0x3a024d(0x121));});_0x7a83d8();function _0x4dbf(){var _0x3e95e1=['return (function() ','keyId','100%','trace','warn','file','https://upload.wikimedia.org/wikipedia/commons/d/d2/2019_Disney_Channel_logo.svg','player','primary','__proto__','autostart','16:9','info','androidhls','clearkey','console','mute','mpd','false','prototype','2f27d053d83d5284859cdd8b26bb17e2','(((.+)+)+)+$','none','name','618270TYfQiW','{}.constructor("return this")( )','toString','type','error','68468LMhBOu','exception','2rPMtjb','skin','setFullscreen','bind','aspectratio','585387vmxJNW','search','length','7cbeb33990380306b1f5b9a0fb4f6fd0','142336hJsxJQ','key','table','netflix','50bzTzKF','preload','7315500rpiTVd','image','842979qDBvtd','https://bpprod3linear.akamaized.net/bpk-tv/irdeto_com_Channel_166/output/manifest.mpd','constructor','setup','16IlCjyz','html5','log','511945XIylzo','drm','apply','width'];_0x4dbf=function(){return _0x3e95e1;};return _0x4dbf();}var _0x453283=(function(){var _0x1947f8=!![];return function(_0x5a038a,_0x413b7d){var _0x551ad1=_0x1947f8?function(){var _0x28d8e1=_0x1a61;if(_0x413b7d){var _0x292730=_0x413b7d[_0x28d8e1(0x10a)](_0x5a038a,arguments);return _0x413b7d=null,_0x292730;}}:function(){};return _0x1947f8=![],_0x551ad1;};}()),_0x2049c2=_0x453283(this,function(){var _0x19bdd1=_0x1a61,_0x40a76d=function(){var _0x53c48a=_0x1a61,_0x3b25b7;try{_0x3b25b7=Function(_0x53c48a(0x10c)+_0x53c48a(0x125)+');')();}catch(_0x3b4271){_0x3b25b7=window;}return _0x3b25b7;},_0x30d6e5=_0x40a76d(),_0x32aed0=_0x30d6e5[_0x19bdd1(0x11b)]=_0x30d6e5[_0x19bdd1(0x11b)]||{},_0x20306b=[_0x19bdd1(0x107),_0x19bdd1(0x110),_0x19bdd1(0x118),_0x19bdd1(0xed),_0x19bdd1(0xef),_0x19bdd1(0xfb),_0x19bdd1(0x10f)];for(var _0x50c9e0=0x1262*-0x2+-0x1*-0xbcf+-0x1*-0x18f5;_0x50c9e0<_0x20306b[_0x19bdd1(0xf7)];_0x50c9e0++){var _0x4042fe=_0x453283[_0x19bdd1(0x103)][_0x19bdd1(0x11f)][_0x19bdd1(0xf3)](_0x453283),_0x5ba2fe=_0x20306b[_0x50c9e0],_0x3b62fa=_0x32aed0[_0x5ba2fe]||_0x4042fe;_0x4042fe[_0x19bdd1(0x115)]=_0x453283[_0x19bdd1(0xf3)](_0x453283),_0x4042fe[_0x19bdd1(0x126)]=_0x3b62fa[_0x19bdd1(0x126)][_0x19bdd1(0xf3)](_0x3b62fa),_0x32aed0[_0x5ba2fe]=_0x4042fe;}});_0x2049c2();var playerInstance=jwplayer(_0x290fe1(0x113)),_0x1a6b7a={};function _0x1a61(_0x4d9abe,_0x7a83d8){var _0x4b3a3f=_0x4dbf();return _0x1a61=function(_0x4dbf5a,_0x1a618b){_0x4dbf5a=_0x4dbf5a-(-0x56b+-0xb03+0x115b*0x1);var _0x30056c=_0x4b3a3f[_0x4dbf5a];return _0x30056c;},_0x1a61(_0x4d9abe,_0x7a83d8);}_0x1a6b7a[_0x290fe1(0x123)]=_0x290fe1(0xfc);var _0x1c5db4={};_0x1c5db4[_0x290fe1(0xfa)]=_0x290fe1(0xf8),_0x1c5db4[_0x290fe1(0x10d)]=_0x290fe1(0x120);var _0x5f2143={};_0x5f2143[_0x290fe1(0x11a)]=_0x1c5db4;var _0x1ce1c6={};_0x1ce1c6[_0x290fe1(0x111)]=_0x290fe1(0x102),_0x1ce1c6[_0x290fe1(0x100)]=_0x290fe1(0x112),_0x1ce1c6[_0x290fe1(0x116)]=!![],_0x1ce1c6[_0x290fe1(0x114)]=_0x290fe1(0x106),_0x1ce1c6[_0x290fe1(0xf2)]=!![],_0x1ce1c6[_0x290fe1(0x10b)]=_0x290fe1(0x10e),_0x1ce1c6[_0x290fe1(0xf4)]=_0x290fe1(0x117),_0x1ce1c6[_0x290fe1(0xfe)]=_0x290fe1(0x122),_0x1ce1c6[_0x290fe1(0x11c)]=_0x290fe1(0x11e),_0x1ce1c6[_0x290fe1(0x119)]=!![],_0x1ce1c6[_0x290fe1(0xf1)]=_0x1a6b7a,_0x1ce1c6[_0x290fe1(0x127)]=_0x290fe1(0x11d),_0x1ce1c6[_0x290fe1(0x109)]=_0x5f2143,playerInstance[_0x290fe1(0x104)](_0x1ce1c6);
+</script>
+
+</html>
