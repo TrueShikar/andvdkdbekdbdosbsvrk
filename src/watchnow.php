@@ -15,4 +15,4 @@ curl_close($curl);
 
 header("Content-Type: application/vnd.apple.mpegurl");
 
-echo $g;
+echo $resp;
