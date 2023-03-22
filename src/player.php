@@ -146,7 +146,7 @@ html {
 </div>
 </div>
 <video autoplay controls crossorigin poster="" playsinline>
-<<source type="application/vnd.apple.mpegurl" src="watchit.php"></video>
+<<source type="application/vnd.apple.mpegurl" src="watchnow.php"></video>
 </body>
 <script>
 setTimeout(videovisible, 3000)
