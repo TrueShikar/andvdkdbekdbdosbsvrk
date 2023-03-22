@@ -43,6 +43,7 @@ curl_setopt($curl1, CURLOPT_RETURNTRANSFER, true);
 
 $headers1 = array(
    "Referer: https://gocast2.com",
+   "Content-Type: application/vnd.apple.mpegurl",
 );
 curl_setopt($curl1, CURLOPT_HTTPHEADER, $headers1);
 //for debug only!
@@ -66,7 +67,8 @@ $f = preg_replace("/(?<=ts).*/", "", $resp1);
 $g = preg_replace("/(?=starhindi).*ts/", "hin.php?ts=".$elink."$0", $f);
 
 
+header("Content-Type: application/vnd.apple.mpegurl");
 
-echo $g;
+echo $g.PHP_EOL;
 
 ?>
