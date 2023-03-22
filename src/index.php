@@ -542,7 +542,7 @@ return false;
                             <li><a href="/contact-us">CONTACT US</a></li>
                             <li><a href="/faqs">FAQS</a></li>
                         </ul>
-                        <p>All Rights Reserved - 2023 Cric Live | Powered by <a href="#" target="_blank"> Watch-It</a><BR><BR>	</p>					
+                        <p>All Rights Reserved - 2023 Watch-It | Powered by <a href="#" target="_blank"> Watch-It</a><BR><BR>	</p>					
                     </div>
 				
                     <div class="uk-width-1-1 hide_dsk_ftr uk-grid-margin uk-first-column">
