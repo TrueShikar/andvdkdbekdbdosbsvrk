@@ -1,12 +1,12 @@
 <?php
 
-$url= "https://gocast2.com/crichd.php?player=mobile&live=starhindi";
+$url= "https://gocast2.com/crichdws.php?player=mobile&live=starhindi";
 $curl = curl_init($url);
 curl_setopt($curl, CURLOPT_URL, $url);
 curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
 
 $headers = array(
-   "Referer: https://gocast2.com",
+   "Referer: https://stream.crichd.vip",
 );
 curl_setopt($curl, CURLOPT_HTTPHEADER, $headers);
 //for debug only!
@@ -52,7 +52,7 @@ curl_close($curl1);
 
 //hls setup and hls//
 
-$elink = "https://go4.gocast2.com:999/hls/";
+$elink = "https://s1.flowerscast.com:999/hls/";
 $opts = array(
   'http'=>array(
     'method'=>"GET",
