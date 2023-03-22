@@ -371,7 +371,7 @@ return false;
 	</style>
 
 <div class="videoWrapper" >  
-	<iframe src="ipl.php" frameborder="0" allowfullscreen></iframe>
+	<iframe src="player.php" frameborder="0" allowfullscreen></iframe>
 </div>
 
 <script>document.addEventListener('DOMContentLoaded', () => {
@@ -464,7 +464,7 @@ return false;
 </div>
                                         
 
-<textarea rows=4 style="width: 100%; max-width: 100%; id="content"><iframe src="https://ww1.shikaritv.tk/ipl.php" frameborder="0" allowfullscreen></iframe></textarea>
+<textarea rows=4 style="width: 100%; max-width: 100%; id="content"><iframe src="https://ww1.shikaritv.tk/player.php" frameborder="0" allowfullscreen></iframe></textarea>
 									
                                 </div>
                             </li>
@@ -514,7 +514,7 @@ return false;
 </div><br>
                                         
 
-<textarea rows=4 style="width: 100%; max-width: 100%; id="content"><iframe src="https://ww1.shikaritv.tk/ipl.php" frameborder="0" allowfullscreen></iframe></textarea>
+<textarea rows=4 style="width: 100%; max-width: 100%; id="content"><iframe src="https://ww1.shikaritv.tk/player.php" frameborder="0" allowfullscreen></iframe></textarea>
 
 
 
