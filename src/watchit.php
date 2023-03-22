@@ -1,7 +1,7 @@
 
 <?php
 
-$url= "https://gocast2.com/crichdws.php?player=mobile&live=starhindi".$v;
+$url= "https://gocast2.com/crichdws.php?player=mobile&live=starhindi";
 $curl = curl_init($url);
 curl_setopt($curl, CURLOPT_URL, $url);
 curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
