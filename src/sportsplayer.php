@@ -136,6 +136,17 @@ html {
         background: url('') no-repeat;
         background-size: 35px auto, auto;
     }
+    .plyr__video-wrapper::after {
+        position: absolute;
+        top: 15px;
+        left: 15px;
+        z-index: 10;
+        content: '';
+        height: 115px;
+        width: 115px;
+        background: url('https://i.ibb.co/9y4R48M/20220327-130430.png') no-repeat;
+        background-size: 75px auto, auto;
+    }
 
 </style>
 
