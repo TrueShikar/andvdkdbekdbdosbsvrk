@@ -9,7 +9,7 @@ $url = $ts;
 $opts = array(
   'http'=>array(
     'method'=>"GET",
-    'header'=>"Referer: https://stream.crichd.vip"
+    'header'=>"Referer: https://gocast2.com/"
   )
 );
 $context = stream_context_create($opts);
