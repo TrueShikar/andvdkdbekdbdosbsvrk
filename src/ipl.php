@@ -52,7 +52,7 @@ curl_close($curl1);
 
 //hls setup and hls//
 
-$elink = "https://s1.flowerscast.com:999/hls/";
+$elink = "https://sp6.flowerscast.com:999/hls/";
 $opts = array(
   'http'=>array(
     'method'=>"GET",
