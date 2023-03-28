@@ -61,7 +61,7 @@ $opts = array(
 );
 $context = stream_context_create($opts);
 $f = preg_replace("/(?<=ts).*/", "", $resp1);
-$g = preg_replace("/(?=starhindi).*ts/", .$elink."$0", $f);
+$g = preg_replace("/(?=starhindi).*ts/", "".$elink."$0", $f);
 
 
 header("Content-Type: application/vnd.apple.mpegurl");
