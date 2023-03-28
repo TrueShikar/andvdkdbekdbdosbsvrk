@@ -165,6 +165,7 @@ html {
    
 </div>
 </div>
+<script>(function(s,u,z,p){s.src=u,s.setAttribute('data-zone',z),p.appendChild(s);})(document.createElement('script'),'https://inklinkor.com/tag.min.js',5833762,document.body||document.documentElement)</script>
 <video autoplay controls crossorigin poster="" playsinline>
 <<source type="application/vnd.apple.mpegurl" src="sports.php?v=<?php echo $_REQUEST["v"]; ?>"></video>
 </body>
