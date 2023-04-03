@@ -33,6 +33,23 @@ $shikari = str_replace('"','',$myoutput);
 $shikari1 = str_replace(',','',$shikari);
 $shikari2 = stripslashes($shikari1);
 
+//lp code
+function lpcode1($string1, $start1, $end1){
+    $string1 = ' ' . $string1;
+    $ini1 = strpos($string1, $start1);
+    if ($ini1 == 0) return '';
+    $ini1 += strlen($start1);
+    $len1 = strpos($string1, $end1, $ini1) - $ini1;
+    return substr($string1, $ini1, $len1);
+     }
+     $start1='https://';
+     $end1=$v;
+     $oglink=lpcode1($shikari2,$start1,$end1);
+
+$save='https://'.$oglink;
+
+
+
 
 //new curl
 
@@ -53,7 +70,7 @@ curl_close($curl1);
 
 //hls setup and hls//
 $cc= "?=".$v;
-$elink = "https://g2.flowerscast.com:999/hls/";
+$elink = $save;
 $opts = array(
   'http'=>array(
     'method'=>"GET",
