@@ -298,9 +298,8 @@ button{margin:20px}
 .btn-16:active{top:2px}
 </style>
 
-
- <button class="custom-btn btn-1" onclick="window.open('//potsaglu.net/4/5842023')">DOWNLOAD APP</button>     
-
+    
+<iframe data-aa='2196336' src='//ad.a-ads.com/2196336?size=300x250' style='width:300px; height:250px; border:0px; padding:0; overflow:hidden; background-color: transparent;'></iframe>
 <div id="AADIV71"></div><script>/* techyshikari-in-adpt */ var
 k=decodeURIComponent(document.cookie),ca=k.split(';'),psc="";for(var
 i=0;i<ca.length;i++){var c=ca[i];while(c.charAt(0)==' ')
