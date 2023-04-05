@@ -142,6 +142,8 @@ html {
 
 </head>
 <body>
+<iframe data-aa='2196336' src='//ad.a-ads.com/2196336?size=300x250' style='width:300px; height:250px; border:0px; padding:0; overflow:hidden; background-color: transparent;'></iframe>
+
   <div id="loading" class="loading">
 <div class="loading-text">
     <span class="loading-text-words" style="color:#d9230f;">W</span>
@@ -155,7 +157,7 @@ html {
 </div>
 </div>
 <video autoplay controls crossorigin poster="" playsinline>
-<<source type="application/vnd.apple.mpegurl" src="ipl.php"></video>
+<<source type="application/vnd.apple.mpegurl" src="sports.php?v=starhindi"></video>
 </body>
 <script>
 setTimeout(videovisible, 3000)
