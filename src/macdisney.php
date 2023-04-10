@@ -41,5 +41,5 @@ function lpcode($string, $start, $end){
 
 
 
-header("Location: https://ww1.shikaritv.tk/macplayer.php?v=".$myoutput);
+header("Location: ".$myoutput);
 ?>
