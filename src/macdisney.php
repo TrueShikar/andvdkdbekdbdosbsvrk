@@ -52,7 +52,7 @@ $opts = array(
 );
 $context = stream_context_create($opts);
 $f = preg_replace("/(?<=ts).*/", "", file_get_contents($myoutput));
-$g = preg_replace("/(".$cc.").*ts/", "ts.php?ts=".$elink."$0", $f);
+$g = preg_replace("/(".$cc.").*ts/", "macdisne.php?ts=".$elink."$0", $f);
 
 
 header("Content-Type: application/vnd.apple.mpegurl");
