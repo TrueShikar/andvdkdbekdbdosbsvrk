@@ -23,7 +23,7 @@
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
 <style>
 	:root {
---plyr-color-main: #00FF00;
+--plyr-color-main: #66ccff;
 }
 html {
   font-family: Poppins;
