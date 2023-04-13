@@ -1,5 +1,5 @@
 <?php
-
+error_reporting(0);
 // create a new cURL resource
 $ch = curl_init();
 
