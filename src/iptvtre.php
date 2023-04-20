@@ -4,9 +4,10 @@ header("content-type: video/mp2t");
 header("pragma: no-cache");
 $ts = $_GET['ts'];
 $tok = file_get_contents("getmekey/token.txt");
+$elink = "http://45.143.222.48:8070";
 
 
-$url = $ts;
+$url = $elink.$ts;
 $opts = array(
   'http'=>array(
     'method'=>"GET"
