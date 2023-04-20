@@ -43,7 +43,6 @@ function lpcode($string, $start, $end){
  $myoutput=str_replace(array("\r", "\n"), '', $myoutput);;
 
 
-$elink = "http://45.143.222.48:8070";
 
 $opts = array(
   'http'=>array(
@@ -53,7 +52,7 @@ $opts = array(
 );
 $context = stream_context_create($opts);
 $f = preg_replace("/(?<=ts).*/", "", file_get_contents($myoutput));
-$g = preg_replace("/.*ts/", "iptvtre.php?ts=".$elink."$0", $f);
+$g = preg_replace("/.*ts/", "iptvtre.php?ts=$0", $f);
 
 
 
